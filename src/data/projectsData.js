@@ -49,16 +49,16 @@ export const projectsData = [
     image: two,
   },
 
-  // {
-  //   id: 4,
-  //   projectName: "Tech News App",
-  //   projectDesc:
-  //     "Tech news app is a tech website where user can search tech related news.",
-  //   tags: ["React", "JavaScript", "Material Ui"],
-  //   code: "https://github.com/R-Yaduvanshi/samachar-app",
-  //   demo: "https://samachar-app-eight.vercel.app/",
-  //   image: three,
-  // },
+  {
+    id: 4,
+    projectName: "Lifestyle Stores App",
+    projectDesc:
+      "Lifestyle is India's most preferred fashion destination for latest trends offering multiple concepts including men, women, kid apparel; Footwear, Handbags, fashion accessories and beauty under the convenience of a single roof in each of its store.",
+    tags: ["React", "JavaScript", "Material Ui","Chakra UI"],
+    code: "https://github.com/msnimish/active-art-8329",
+    demo: "https://stylenova.netlify.app/",
+    image: three,
+  },
 
   // {
   //   id: 5,
