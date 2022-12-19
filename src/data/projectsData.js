@@ -45,7 +45,7 @@ export const projectsData = [
       "ZEE5.COM CLONE : This project is clone of zee5.com . It is an OTT platform which serves movies and web-series to their customer on paid subscription.",
     tags: ["HTML", "CSS", "JavaScript", "Local Storage"],
     code: "https://github.com/vivekraj21/unkempt-direction-8363",
-    demo: "https://github.com/vivekraj21/unkempt-direction-8363",
+    demo: "https://coruscating-sprinkles-12d10b.netlify.app/index.html",
     image: two,
   },
 
