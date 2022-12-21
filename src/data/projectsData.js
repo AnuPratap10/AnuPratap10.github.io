@@ -25,7 +25,7 @@ export const projectsData = [
       "MongoDB",
     ],
     code: "https://github.com/KanhaiyaChauhan037/succinct-wrench-1095",
-    demo: "https://mellifluous-froyo-0d1b1d.netlify.app//",
+    demo: "https://whitefeather.netlify.app/",
     image: AppleTV,
   },
   {
