@@ -45,7 +45,7 @@ export const projectsData = [
       "ZEE5.COM CLONE : This project is clone of zee5.com . It is an OTT platform which serves movies and web-series to their customer on paid subscription.",
     tags: ["HTML", "CSS", "JavaScript", "Local Storage"],
     code: "https://github.com/vivekraj21/unkempt-direction-8363",
-    demo: "https://coruscating-sprinkles-12d10b.netlify.app/index.html",
+    demo: "https://zee5webclone.netlify.app/",
     image: two,
   },
 
@@ -54,7 +54,7 @@ export const projectsData = [
     projectName: "Lifestyle Stores App",
     projectDesc:
       "Lifestyle is India's most preferred fashion destination for latest trends offering multiple concepts including men, women, kid apparel; Footwear, Handbags, fashion accessories and beauty under the convenience of a single roof in each of its store.",
-    tags: ["React", "JavaScript", "Material Ui","Chakra UI"],
+    tags: ["React", "JavaScript", "Material Ui", "Chakra UI"],
     code: "https://github.com/msnimish/active-art-8329",
     demo: "https://stylenova.netlify.app/",
     image: three,
