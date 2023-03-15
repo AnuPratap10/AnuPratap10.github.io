@@ -55,31 +55,13 @@ export const projectsData = [
     projectDesc:
       "Lifestyle is India's most preferred fashion destination for latest trends offering multiple concepts including men, women, kid apparel; Footwear, Handbags, fashion accessories and beauty under the convenience of a single roof in each of its store.",
     tags: ["React", "JavaScript", "Material Ui", "Chakra UI"],
-    code: "https://github.com/msnimish/active-art-8329",
-    demo: "https://stylenova.netlify.app/",
+    code: "https://github.com/AnuPratap10/LifeStyle",
+    demo: "https://stylesnova.netlify.app/",
     image: three,
   },
 
-  // {
-  //   id: 5,
-  //   projectName: "Twiik App Clone",
-  //   projectDesc:
-  //     "A fitness based website that provides fitness tips to the user",
-  //   tags: ["React", "JavaScript", "CSS", "HTML", "Chakra-UI"],
-  //   code: "https://github.com/R-Yaduvanshi/shapelink_clone",
-  //   demo: "https://shape-link-clone.vercel.app/",
-  //   image: four,
-  // },
 
-  // {
-  //   id: 6,
-  //   projectName: "Simple Todo App",
-  //   projectDesc: "A Simple Todo App where user can add or delete task",
-  //   tags: ["React", "HTML", "CSS"],
-  //   code: "https://github.com/R-Yaduvanshi/Simple-Todo",
-  //   demo: "https://simple-todo-app-phi.vercel.app/",
-  //   image: five,
-  // },
+ 
 ];
 
 // Do not remove any fields.
