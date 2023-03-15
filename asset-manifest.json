@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5bade84e.css",
-    "main.js": "/static/js/main.a8c06821.js",
+    "main.js": "/static/js/main.fc274ef0.js",
     "static/js/787.1a87219a.chunk.js": "/static/js/787.1a87219a.chunk.js",
     "static/media/AppleTV.gif": "/static/media/AppleTV.de467c5adb699579c0c7.gif",
     "static/media/espn.gif": "/static/media/espn.ca85b8fece4bdba3cf8a.gif",
@@ -17,7 +17,7 @@
     "static/media/expPurple.svg": "/static/media/expPurple.c054e7936866e05307edbf7a6d27ddde.svg",
     "static/media/expYellow.svg": "/static/media/expYellow.cff6e7009ac8cce0c8806daff98c4c87.svg",
     "static/media/todo.png": "/static/media/todo.fa5b8458717bb5a79572.png",
-    "static/media/Anu_Pratap_Singh_Resume.pdf": "/static/media/Anu_Pratap_Singh_Resume.ad150c14c43b77b699b0.pdf",
+    "static/media/Anu_Pratap_Singh_Resume.pdf": "/static/media/Anu_Pratap_Singh_Resume.51f86a4d9e6b922d43dc.pdf",
     "static/media/technews.png": "/static/media/technews.0a5610ddbab69b48722c.png",
     "static/media/seven.svg": "/static/media/seven.d5cabb8e4cedec31fdf59721d8a6fe76.svg",
     "static/media/BestermindRegular.ttf": "/static/media/BestermindRegular.e58a192233afb30a6a59.ttf",
@@ -150,11 +150,11 @@
     "static/media/vuetifyjs.svg": "/static/media/vuetifyjs.3848fcff351a0cbc94e75362594d2b25.svg",
     "static/media/bulma.svg": "/static/media/bulma.12ecb7941234000a2fe38a48cbce30da.svg",
     "main.5bade84e.css.map": "/static/css/main.5bade84e.css.map",
-    "main.a8c06821.js.map": "/static/js/main.a8c06821.js.map",
+    "main.fc274ef0.js.map": "/static/js/main.fc274ef0.js.map",
     "787.1a87219a.chunk.js.map": "/static/js/787.1a87219a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5bade84e.css",
-    "static/js/main.a8c06821.js"
+    "static/js/main.fc274ef0.js"
   ]
 }
