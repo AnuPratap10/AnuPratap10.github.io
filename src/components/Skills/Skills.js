@@ -66,8 +66,9 @@ function Skills() {
 
   return (
     <div
+    id="skills"
       className="skills"
-      id={"skills"}
+      // id={"skills"}
       style={{ backgroundColor: theme.secondary }}
     >
       <FadeInSection>

@@ -68,7 +68,9 @@ function Landing() {
   const classes = useStyles();
 
   return (
-    <div className="landing" name="home">
+    <div 
+    id="home"
+    className="landing" name="home">
       <div className="landing--container">
         <div
           className="landing--container-left"
