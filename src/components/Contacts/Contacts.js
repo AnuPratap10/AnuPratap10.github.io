@@ -1,9 +1,9 @@
-import React, { useContext, useState } from "react";
-import { Snackbar, IconButton, SnackbarContent } from "@material-ui/core";
+import React, {useContext, useState} from "react";
+import {Snackbar, IconButton, SnackbarContent} from "@material-ui/core";
 import CloseIcon from "@material-ui/icons/Close";
 import axios from "axios";
 import isEmail from "validator/lib/isEmail";
-import { makeStyles } from "@material-ui/core/styles";
+import {makeStyles} from "@material-ui/core/styles";
 import {
   FaTwitter,
   FaLinkedinIn,
@@ -17,14 +17,14 @@ import {
   FaGitlab,
   FaMediumM,
 } from "react-icons/fa";
-import { AiOutlineSend, AiOutlineCheckCircle } from "react-icons/ai";
-import { FiPhone, FiAtSign } from "react-icons/fi";
-import { HiOutlineLocationMarker } from "react-icons/hi";
+import {AiOutlineSend, AiOutlineCheckCircle} from "react-icons/ai";
+import {FiPhone, FiAtSign} from "react-icons/fi";
+import {HiOutlineLocationMarker} from "react-icons/hi";
 
-import { ThemeContext } from "../../contexts/ThemeContext";
+import {ThemeContext} from "../../contexts/ThemeContext";
 
-import { socialsData } from "../../data/socialsData";
-import { contactsData } from "../../data/contactsData";
+import {socialsData} from "../../data/socialsData";
+import {contactsData} from "../../data/contactsData";
 import "./Contacts.css";
 
 function Contacts() {
@@ -37,7 +37,7 @@ function Contacts() {
   const [success, setSuccess] = useState(false);
   const [errMsg, setErrMsg] = useState("");
 
-  const { theme } = useContext(ThemeContext);
+  const {theme} = useContext(ThemeContext);
 
   const handleClose = (event, reason) => {
     if (reason === "clickaway") {
@@ -166,14 +166,12 @@ function Contacts() {
 
   return (
     <div
-    id="contact"
       className="contacts"
-      // id="contacts"
-      style={{ backgroundColor: theme.secondary }}
+      style={{backgroundColor: theme.secondary}}
       name="contact"
     >
-      <div className="contacts--container">
-        <h1 style={{ color: theme.primary }}>Contacts</h1>
+      <div id="contact" className="contacts--container">
+        <h1 style={{color: theme.primary}}>Contacts</h1>
         <div className="contacts-body">
           <div className="contacts-form">
             <form onSubmit={handleContactForm}>
@@ -281,19 +279,19 @@ function Contacts() {
               <div className={classes.detailsIcon}>
                 <FiAtSign />
               </div>
-              <p style={{ color: theme.tertiary }}>{contactsData.email}</p>
+              <p id="contact-email"  style={{color: theme.tertiary}}>{contactsData.email}</p>
             </a>
             <a href={`tel:${contactsData.phone}`} className="personal-details">
               <div className={classes.detailsIcon}>
                 <FiPhone />
               </div>
-              <p style={{ color: theme.tertiary }}>{contactsData.phone}</p>
+              <p id="contact-phone" style={{color: theme.tertiary}}>{contactsData.phone}</p>
             </a>
             <div className="personal-details">
               <div className={classes.detailsIcon}>
                 <HiOutlineLocationMarker />
               </div>
-              <p style={{ color: theme.tertiary }}>{contactsData.address}</p>
+              <p  style={{color: theme.tertiary}}>{contactsData.address}</p>
             </div>
 
             <div className="socialmedia-icons">
@@ -309,6 +307,7 @@ function Contacts() {
               )}
               {socialsData.github && (
                 <a
+                id="contact-github"
                   href={socialsData.github}
                   target="_blank"
                   rel="noreferrer"
@@ -319,6 +318,7 @@ function Contacts() {
               )}
               {socialsData.linkedIn && (
                 <a
+                id="contact-linkedin"
                   href={socialsData.linkedIn}
                   target="_blank"
                   rel="noreferrer"

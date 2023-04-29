@@ -1,13 +1,13 @@
-.projects {
+/* .projects {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
   min-height: 100vh;
   overflow-x: hidden;
-  /* padding: 2rem; */
+  /* padding: 2rem; 
   padding: 5rem 1rem 1rem 1rem;
-}
+} */
 
 .projects--header {
   display: flex;

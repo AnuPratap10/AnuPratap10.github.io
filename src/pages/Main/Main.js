@@ -2,7 +2,7 @@ import React from "react";
 import { Helmet } from "react-helmet";
 
 import {
-  Navbar,
+ 
   Footer,
   Landing,
   About,
@@ -19,7 +19,7 @@ import {
 import { headerData } from "../../data/headerData";
 import GithubStatic from "./GithubStatic";
 import GithubStats from "./GithubStats";
-import MyNavbar from "./MyNavbar";
+
 function Main() {
   return (
     <div>

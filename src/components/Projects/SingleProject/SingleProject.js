@@ -1,12 +1,12 @@
-import { makeStyles } from "@material-ui/core/styles";
+import {makeStyles} from "@material-ui/core/styles";
 
 import "./SingleProject.css";
 
 import React from "react";
 import "../projectcard.css";
 import Fade from "react-reveal/Fade";
-import { FaCode, FaPlay } from "react-icons/fa";
-const SingleProject = ({ id, name, desc, tags, code, demo, image, theme }) => {
+import {FaCode, FaPlay} from "react-icons/fa";
+const SingleProject = ({id, name, desc, tags, code, demo, image, theme}) => {
   const useStyles = makeStyles((t) => ({
     iconBtn: {
       display: "flex",
@@ -36,14 +36,14 @@ const SingleProject = ({ id, name, desc, tags, code, demo, image, theme }) => {
   return (
     <Fade left>
       <div className="card">
-        <div style={{ height: "87%" }}>
+        <div style={{height: "87%"}}>
           <div className="card-image">
             <img src={image} alt="" />
           </div>
           <div className="card-description">
             <h2
               id={name.replace(" ", "-").toLowerCase()}
-              style={{ color: theme.primary }}
+              style={{color: theme.primary}}
               className="projectname"
             >
               {name}

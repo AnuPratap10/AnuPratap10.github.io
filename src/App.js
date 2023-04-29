@@ -10,9 +10,10 @@ import { ThemeContext } from "./contexts/ThemeContext";
 import { Main, BlogPage, ProjectPage } from "./pages";
 import { BackToTop } from "./components";
 import ScrollToTop from "./utils/ScrollToTop";
-import MyNavbar from "./pages/Main/MyNavbar";
+
 import GithubStats from "./pages/Main/GithubStats";
 import ProjectCard from "./components/projectscard/ProjectCard";
+import Navbar from "./components/Navbar/Navbar"
 
 // import "./App.css";
 
@@ -31,7 +32,7 @@ function App() {
 
   return (
     <div className="app">
-      <MyNavbar />
+      <Navbar />
       <Router>
         <ScrollToTop />
         <Switch>

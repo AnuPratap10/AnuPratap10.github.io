@@ -45,6 +45,7 @@ function Projects() {
     <>
       {projectsData.length > 0 && (
         <section
+        id="projects"
           className="container"
           name="project"
           style={{

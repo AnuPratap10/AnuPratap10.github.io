@@ -27,6 +27,7 @@ const GithubStatic = () => {
       </h2>
       <div className="git_main_div">
         <img
+        id="github-stats-card"
           align="center"
           src="https://github-readme-stats.vercel.app/api?username=AnuPratap10&show_icons=true&include_all_commits=true&count_private=true&hide=issues,contribs&border_radius=5&locale=en&theme=dark"
           alt="Anu"
@@ -34,6 +35,7 @@ const GithubStatic = () => {
           className="img1"
         />
         <img
+        id="github-top-langs"
           src="https://github-readme-stats.vercel.app/api/top-langs/?username=AnuPratap10&layout=compact&hide=Shell&border_radius=5&theme=dark"
           alt=""
           style={{ height: "190px" }}
@@ -42,6 +44,7 @@ const GithubStatic = () => {
       </div>
 
       <img
+      id="github-streak-stats"
         align="center"
         src="https://github-readme-streak-stats.herokuapp.com/?user=AnuPratap10&theme=dark"
         alt="anu"
