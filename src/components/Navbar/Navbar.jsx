@@ -59,7 +59,7 @@ const Navbar = () => {
           // console.log("=>", link)
         )}
         <li className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 hover:text-black duration-200">
-          <a href={resume} download="Anu_Pratap_Singh_Resume">
+          <a className="nav-link resume" href={resume} download="Anu_Pratap_Singh_Resume">
           <button id="resume-button-1">Resume</button>
           </a>
         </li>
@@ -92,7 +92,7 @@ const Navbar = () => {
             </li>
           ))}
           <li className="px-4 cursor-pointer capitalize py-6 text-4xl hover:scale-105 hover:text-black">
-            <a href={resume} download="Anu_Pratap_Singh_Resume">
+            <a className="nav-link resume" href={resume} download="Anu_Pratap_Singh_Resume">
             <button id="resume-button-1">Resume</button>
             </a>
           </li>
