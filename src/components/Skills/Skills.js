@@ -32,7 +32,7 @@ function Skills() {
               <FadeInSection key={id}>
                 <div className="skills-card" key={id} style={skillBoxStyle}>
                   <img className="skills-card-img" src={skillsImage(skill)} alt={skill} />
-                  <h3 style={{color: theme.tertiary}}>{skill}</h3>
+                  <h3 className="skills-card-name" style={{color: theme.tertiary}}>{skill}</h3>
                 </div>
               </FadeInSection>
             ))}
