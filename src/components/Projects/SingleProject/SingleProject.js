@@ -70,7 +70,6 @@ const SingleProject = ({id, name, desc, tags, code, demo, image, theme}) => {
         </div>
         <div className="card-buttons">
           <a
-            class="project-deployed-link"
             href={demo}
             target="_blank"
             rel="noreferrer"
@@ -79,6 +78,7 @@ const SingleProject = ({id, name, desc, tags, code, demo, image, theme}) => {
               .replace(" ", "-")
               .toLowerCase()}-demo`}
             title="See Demo"
+            class='project-deployed-link'
           >
             <FaPlay
               id={`${name.replace(" ", "-").toLowerCase()}-demo`}
