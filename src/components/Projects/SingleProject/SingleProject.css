@@ -23,7 +23,7 @@
   height: 100%;
 }
 
-.projectname {
+.project-title {
   font-family: var(--primaryFont);
   font-style: normal;
   font-weight: 600;
