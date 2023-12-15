@@ -38,16 +38,16 @@ export const projectsData = [
     demo: "https://luxury-raindrop-e6b139.netlify.app/",
     image: espn,
   },
-  {
-    id: 3,
-    projectName: "ZEE5 Clone",
-    projectDesc:
-      "ZEE5.COM CLONE : This project is clone of zee5.com . It is an OTT platform which serves movies and web-series to their customer on paid subscription.",
-    tags: ["HTML", "CSS", "JavaScript", "Local Storage"],
-    code: "https://github.com/vivekraj21/unkempt-direction-8363",
-    demo: "https://zee5webclone.netlify.app/",
-    image: two,
-  },
+  // {
+  //   id: 3,
+  //   projectName: "ZEE5 Clone",
+  //   projectDesc:
+  //     "ZEE5.COM CLONE : This project is clone of zee5.com . It is an OTT platform which serves movies and web-series to their customer on paid subscription.",
+  //   tags: ["HTML", "CSS", "JavaScript", "Local Storage"],
+  //   code: "https://github.com/vivekraj21/unkempt-direction-8363",
+  //   demo: "https://zee5webclone.netlify.app/",
+  //   image: two,
+  // },
 
   {
     id: 4,
